@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Container{
+    display: grid;
+    width: 600px;
+    height: 700px;
+    border: 1px solid black;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:"display display display display"
+    "AC Delete Clear divide"
+    "seven eight nine x"
+    "four five six minus"
+    "one two three addi"
+    "zeroo decimall equals equals";
+}
+.conitem{
+    border: 1px solid greenyellow;
+    padding-top: 40px;
+    text-align: center;
+    color: lime;
+}
+.conitem.Display{
+    grid-area: display;
+}
+.conitem.AC{
+    grid-area: AC;
+}
+.conitem.Delete{
+    grid-area: Delete;
+}
+.conitem.Clear{
+    grid-area: Clear;
+}
+.conitem.divide{
+    grid-area: divide;
+}
+.conitem.seven{
+    grid-area: seven;
+}
+.conitem.eight{
+    grid-area: eight;
+}
+.conitem.nine{
+    grid-area: nine;
+}
+.conitem.x{
+    grid-area: x;
+}
+.conitem.four{
+    grid-area: four;
+}
+.conitem.five{
+    grid-area: five;
+}
+.conitem.six{
+    grid-area: six;
+}
+.conitem.minus{
+    grid-area: minus;
+}
+.conitem.one{
+    grid-area: one;
+}
+.conitem.two{
+    grid-area: two;
+}
+.conitem.three{
+    grid-area: three;
+}
+.conitem.addi{
+    grid-area: addi;
+}
+.conitem.zeroo{
+    grid-area: zeroo;
+}
+.conitem.decimall{
+    grid-area: decimall;
+}
+.conitem.equals{
+    grid-area: equals;
+}
