@@ -13,7 +13,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas:"display display display display"
-    "AC Delete Clear divide"
+    "Delete Delete Clear divide"
     "seven eight nine x"
     "four five six minus"
     "one two three addi"
