@@ -1,15 +1,16 @@
 body{
-    background-color: black;
+    background-color: rgb(9, 73, 20);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
 #Container{
     display: grid;
     width: 600px;
     height: 700px;
-    border: 1px solid black;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas:"display display display display"
@@ -17,13 +18,19 @@ body{
     "seven eight nine x"
     "four five six minus"
     "one two three addi"
-    "zeroo decimall equals equals";
+    "zeroo zeroo equals equals";
+}
+h1{
+    color: aliceblue;
+    text-shadow: 10px 5px 5px rgb(2, 2, 2);
 }
 .conitem{
-    border: 1px solid greenyellow;
+    border: 1px solid rgb(221, 109, 109);
     padding-top: 40px;
     text-align: center;
-    color: lime;
+    color: rgb(250, 250, 250);
+    border-radius: 15px;
+    box-shadow:10px 5px 5px rgb(70, 61, 61);
 }
 .conitem.Display{
     grid-area: display;
